@@ -57,5 +57,10 @@ int main(void) {
 		delete[] B[i];
 	}
 	delete[] B;
+
+	for (int i = 0; i < n; i++) {
+		delete[] mat[i];
+	}
+	delete[] B;
 	return 0;
 }

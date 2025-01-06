@@ -61,6 +61,6 @@ int main(void) {
 	for (int i = 0; i < n; i++) {
 		delete[] mat[i];
 	}
-	delete[] B;
+	delete[] mat;
 	return 0;
 }
